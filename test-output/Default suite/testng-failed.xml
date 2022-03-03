@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.parasoft.parabank.testCases.TC_LoginTest_001">
+      <class name="com.parasoft.parabank.testCases.TC_LoginTest_002_DD">
         <methods>
+          <include name="loginDDT"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyLoginTitle"/>
         </methods>
-      </class> <!-- com.parasoft.parabank.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.parasoft.parabank.testCases.TC_LoginTest_002_DD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

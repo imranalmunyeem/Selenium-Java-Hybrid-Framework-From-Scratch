@@ -2,7 +2,6 @@ package com.parasoft.parabank.base;
 
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -69,6 +68,7 @@ public class BaseClass {
 	public void tearDown() {
 		driver.quit();
 	}
+	
 	public void captureScreen(WebDriver driver, String tname) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);

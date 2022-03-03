@@ -13,7 +13,9 @@
 		<!-- <parameter name="browser" value="ie" /> -->
 		<!-- <parameter name="browser" value="opera" /> -->
 		<classes>
+			<class name="com.parasoft.parabank.testCases.TC_LoginTest_002_DD" />
 			<class name="com.parasoft.parabank.testCases.TC_LoginTest_001" />
+			
 		</classes>
 
 	</test>

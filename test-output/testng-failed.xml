@@ -11,9 +11,17 @@
         <methods>
           <include name="setup"/>
           <include name="loginTitle"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.parasoft.parabank.testCases.TC_LoginTest_001 -->
+      <class name="com.parasoft.parabank.testCases.TC_LoginTest_002_DD">
+        <methods>
+          <include name="loginDDT"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.parasoft.parabank.testCases.TC_LoginTest_002_DD -->
     </classes>
   </test> <!-- Parabank Test(failed) -->
 </suite> <!-- Failed suite [ParabankV1] -->
