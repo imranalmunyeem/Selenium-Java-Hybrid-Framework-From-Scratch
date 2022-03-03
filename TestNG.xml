@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ParabankV1">
+
+	<listeners>
+		<listener class-name="com.parasoft.parabank.utilities.Reporting" />
+	</listeners>
+
+	<test name="Parabank Test">
+		<parameter name="browser" value="chrome" />
+		<!-- <parameter name="browser" value="firefox" /> -->
+		<!-- <parameter name="browser" value="edge" /> -->
+		<!-- <parameter name="browser" value="ie" /> -->
+		<!-- <parameter name="browser" value="opera" /> -->
+		<classes>
+			<class name="com.parasoft.parabank.testCases.TC_LoginTest_001" />
+		</classes>
+
+	</test>
+
+</suite>

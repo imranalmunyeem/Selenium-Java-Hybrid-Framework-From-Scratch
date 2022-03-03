@@ -28,11 +28,13 @@ public class LoginPage {
 	WebElement btnLogin;
 	
 	public void inputUsername(String username) {
+		txtUsername.clear();
 		txtUsername.sendKeys(username);
 	}
 	
 	public void inputPassword(String password) {
-		txtUsername.sendKeys(password);
+		txtPassword.clear();
+		txtPassword.sendKeys(password);
 	}
 	
 	public void clickOnLogin() {
