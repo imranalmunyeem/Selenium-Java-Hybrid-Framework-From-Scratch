@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.parasoft.parabank.testCases.TC_LoginTest_002_DD">
+      <class name="com.nopcommerce.admin.testCases.TC_ProductsTest_002">
         <methods>
-          <include name="loginDDT"/>
+          <include name="login"/>
+          <include name="logout"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="createProduct"/>
         </methods>
-      </class> <!-- com.parasoft.parabank.testCases.TC_LoginTest_002_DD -->
+      </class> <!-- com.nopcommerce.admin.testCases.TC_ProductsTest_002 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

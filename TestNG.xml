@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="ParabankV1">
+<suite name="NopcommerceV1">
 
 	<listeners>
-		<listener class-name="com.parasoft.parabank.utilities.Reporting" />
+		<listener class-name="com.nopcommerce.admin.utilities.Reporting" />
 	</listeners>
 
-	<test name="Parabank Test">
+	<test name="Nopcommerce Test">
 		<parameter name="browser" value="chrome" />
 		<!-- <parameter name="browser" value="firefox" /> -->
 		<!-- <parameter name="browser" value="edge" /> -->
 		<!-- <parameter name="browser" value="ie" /> -->
 		<!-- <parameter name="browser" value="opera" /> -->
 		<classes>
-			<class name="com.parasoft.parabank.testCases.TC_LoginTest_002_DD" />
-			<class name="com.parasoft.parabank.testCases.TC_LoginTest_001" />
+		   	
+			<!--<class name="com.nopcommerce.admin.testCases.TC_LoginTest_001" />-->
+			<class name="com.nopcommerce.admin.testCases.TC_ProductsTest_002" />
+			
 			
 		</classes>
 

@@ -1,0 +1,7 @@
+com\nopcommerce\admin\base\BaseClass.class
+com\nopcommerce\admin\utilities\ReadConfig.class
+com\nopcommerce\admin\testCases\TC_LoginTest_001.class
+com\nopcommerce\admin\utilities\Reporting.class
+com\nopcommerce\admin\testCases\TC_AddNewUserTest_000.class
+com\nopcommerce\admin\pageObjects\AddNewUserPage.class
+com\nopcommerce\admin\pageObjects\LoginPage.class
